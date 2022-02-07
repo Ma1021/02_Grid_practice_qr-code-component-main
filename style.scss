@@ -67,8 +67,19 @@ body{
         font-size: 11px; 
         text-align: center;
         grid-area: att;
+
         a{
             color: hsl(228, 45%, 44%);
         }
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        .card{
+            width: 90%;
+            min-width: 250px;
+        }
+
     }
 }

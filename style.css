@@ -310,4 +310,11 @@ body .attribution {
 body .attribution a {
   color: #3e52a3;
 }
+
+@media (max-width: 375px) {
+  body .card {
+    width: 90%;
+    min-width: 250px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
