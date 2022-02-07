@@ -242,17 +242,27 @@ body {
   background-color: #d6e2f0;
   display: -ms-grid;
   display: grid;
-  place-content: center;
+  -ms-grid-rows: 1fr auto 1fr;
+      grid-template-rows: 1fr auto 1fr;
+      grid-template-areas: '.' 'card' 'att';
   font-size: 15px;
 }
 
 body .card {
   width: 350px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   background-color: white;
   border-radius: 15px;
   text-align: center;
   -webkit-box-shadow: 0 5px 20px rgba(195, 195, 195, 0.774);
           box-shadow: 0 5px 20px rgba(195, 195, 195, 0.774);
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: card;
 }
 
 body .card .image {
@@ -282,13 +292,15 @@ body .card .content p {
 }
 
 body .attribution {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin-bottom: 0.5rem;
   font-size: 11px;
   text-align: center;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: att;
 }
 
 body .attribution a {
