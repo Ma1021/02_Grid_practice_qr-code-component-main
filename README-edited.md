@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: I wonder how may I generate the solution url before I even submit the solution??? So I will just include the live site at this time.
+- Live Site URL: [Live Site on GitHub](https://ma1021.github.io/02_qr-code-component-main/)
 
 ## My process
 
