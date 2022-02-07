@@ -1,4 +1,5 @@
 @import 'normalize.scss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 
 $white: hsl(0, 0%, 100%);
@@ -16,7 +17,9 @@ body{
     '.'
     'card'
     'att';
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    font-weight: 400;
     
     .card{
         width: 350px;
@@ -48,6 +51,7 @@ body{
             h1{
                 font-size: 20px;
                 color:$dark_blue;
+                font-weight: 700;
             }
 
             p{
